@@ -1,0 +1,8 @@
+streamlit
+opencv-python
+pillow
+numpy<2
+pytesseract
+python-dotenv
+openai
+twilio

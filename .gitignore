@@ -1,0 +1,17 @@
+# Environments
+venv/
+env/
+__pycache__/
+
+# Secrets (NEVER PUSH THIS)
+.env
+
+# Database (Optional: ignore if you want a fresh DB on the cloud)
+*.db
+database/*.db
+
+# Heavy models (Depends if GitHub allows it, yolov8n.pt is ~6MB which is fine, but good to note)
+# yolov8n.pt 
+
+# Temp files
+temp/
