@@ -3,7 +3,7 @@
 This rebuilt project is simplified around your exact demo flow:
 
 - Only one owner in the database: **Sanjana Kanaki**
-- Mobile: **9067443576**
+- Mobile: **90XXXXXXXX**
 - Plate: **MH13 AB1234**
 - Automatic plate OCR from the image
 - Automatic vehicle + violation classification using Grok
