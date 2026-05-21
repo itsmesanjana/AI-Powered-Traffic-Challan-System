@@ -210,7 +210,7 @@ with tab_detect:
 
                 extracted_plate = normalize_plate(ocr_result.get("plate_number", ""))
 
-                with tempfile.NamedTemporaryFile(delete=False, suffix=".png", dir=BASE_DIR / "temp") as temp_file:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".png") as temp_file:
                     temp_image_path = temp_file.name
                     cv2.imwrite(temp_image_path, image_bgr)
 
